@@ -1,0 +1,79 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+    background-color: #fafafa;
+    color: #222;
+    margin: 30px;
+}
+
+h2, h3 {
+    color: #004aad;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 320px;
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: 600;
+}
+
+input {
+    padding: 6px 10px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+input:focus {
+    border-color: #004aad;
+}
+
+button {
+    background-color: #004aad;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+button:hover {
+    background-color: #003080;
+}
+
+#validation-result {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Таблиця */
+#table-container {
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+td {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #888;
+    font-weight: 600;
+    font-size: 16px;
+    transition: background-color 0.25s;
+    user-select: none;
+}
+
+td:hover {
+    cursor: pointer;
+}

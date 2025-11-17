@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Святний Тимофій, Frontend, HTML">
+    <meta name="description" content="Лабораторна робота №5 з курсу Основи FE-технологій">
+    <title>Лабораторна №5 | Святний Т. А. | ІО-34</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>Лабораторна робота №5</h2>
+    <h3>Завдання 1</h3>
+    <p><strong>Мета:</strong> перевірка коректності введених користувачем даних за допомогою JavaScript.</p>
+
+    <form id="student-form">
+        <label for="faculty">Факультет:</label>
+        <input type="text" id="faculty" placeholder="Напр. ФІОТ">
+
+        <label for="birth">Дата народження:</label>
+        <input type="text" id="birth" placeholder="ДД.ММ.РРРР">
+
+        <label for="address">Адреса:</label>
+        <input type="text" id="address" placeholder="м.Київ">
+
+        <label for="email">Поштова адреса:</label>
+        <input type="text" id="email" placeholder="example@gmail.com">
+
+        <button type="button" id="check-btn">Перевірити</button>
+    </form>
+
+    <div id="validation-result"></div>
+
+    <hr>
+
+    <h3>Завдання 2</h3>
+    <p><strong>Мета:</strong> створити таблицю 6×6 з нумерацією клітинок.  
+        При наведенні на клітинку, що відповідає номеру варіанта — змінюється колір на випадковий.  
+        При кліку — колір задається з палітри.  
+        При подвійному кліку — змінюється колір усіх клітинок, крім обраної.</p>
+
+    <div id="table-container"></div>
+    <input type="color" id="color-picker" value="#00ff00" style="display:none;">
+
+    <script src="script.js"></script>
+</body>
+</html>
